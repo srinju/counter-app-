@@ -1,4 +1,4 @@
-//jsx files are combination of js and html , so you can see you can return a html inside a function
+//jsx files are combination of js and html , so you can see you can return a html inside a function 
 
 import { useState } from 'react'
 import './App.css'
@@ -14,7 +14,7 @@ function App() {
   )
 }
 
-function Button(props){
+function Button(props){ //this func is same as the button component funciton we defined before coding react see the ppt of react notes
   function onButtonClick() {
     props.setCount(props.count + 1);
   }
